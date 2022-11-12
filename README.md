@@ -39,5 +39,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Website - [Chris Griffiths](https://www.your-site.com)
+- Website - [Chris Griffiths](https://www.chrisgriffithsdesign.co.uk)
 - Frontend Mentor - [@Chris-Griffiths](https://www.frontendmentor.io/profile/Chris-Griffiths)
