@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://cosmic-churros-381c83.netlify.app)
+- Solution URL: [My Solution](https://cosmic-churros-381c83.netlify.app)
 
 ## My process
 
