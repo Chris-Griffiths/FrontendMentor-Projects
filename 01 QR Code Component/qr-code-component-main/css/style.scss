@@ -1,0 +1,113 @@
+:root {
+    // Colours
+    --wte: hsl(0, 0%, 100%);
+    --lgt_gry: hsl(212, 45%, 89%);
+    --gry_blue: hsl(220, 15%, 55%);
+    --lgt_blue: hsl(220, 15%, 80%);
+    --drk_blue: hsl(218, 44%, 22%);
+
+    // Typography
+    --primary-font: 'Outfit', sans-serif;
+
+    --reg: 400;
+    --bold: 700;
+
+    --tran: all 200ms ease-out;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: var(--primary-font);
+}
+
+
+// Type
+
+p,
+h3 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.2rem;
+    font-weight: var(--bold);
+    color: var(--drk_blue);
+    margin-bottom: 20px;
+
+}
+
+p {
+    font-size: 1.5rem;
+    color: var(--gry_blue);
+    font-weight: var(--reg);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+// Background
+
+.section-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--lgt_gry);
+    display: grid;
+    place-items: center;
+}
+
+// Card
+
+.card {
+    max-width: 330px;
+    background-color: var(--wte);
+    padding: 20px 20px 40px 20px;
+    border-radius: 20px;
+    margin: 0 20px;
+    box-shadow: 10px 10px 60px var(--lgt_blue);
+
+
+    &_img {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+        object-position: center;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 20px;
+
+    }
+
+    img {
+        width: 100%;
+        transition: var(--tran);
+    }
+
+    &_content {
+        width: 100%;
+        padding: 0 20px;
+
+        h3 {
+            transition: var(--tran);
+        }
+    }
+
+}
+
+
+.card:hover {
+    img {
+        transform: scale(1.1);
+    }
+
+    h3 {
+        color: var(--gry_blue);
+    }
+}
